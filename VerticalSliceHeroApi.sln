@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerticalSliceHeroApi", "VerticalSliceHeroApi\VerticalSliceHeroApi.csproj", "{CEED9148-F968-4132-BFF6-669E82344BBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{89F6F8C5-81FD-445C-9B60-D029C110E9AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CEED9148-F968-4132-BFF6-669E82344BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEED9148-F968-4132-BFF6-669E82344BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEED9148-F968-4132-BFF6-669E82344BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F6F8C5-81FD-445C-9B60-D029C110E9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F6F8C5-81FD-445C-9B60-D029C110E9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F6F8C5-81FD-445C-9B60-D029C110E9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F6F8C5-81FD-445C-9B60-D029C110E9AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
