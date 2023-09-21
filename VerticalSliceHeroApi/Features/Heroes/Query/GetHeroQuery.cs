@@ -6,7 +6,7 @@ namespace VerticalSliceHeroApi.Features.Heroes.Query
 {
     public class GetHeroQuery : IRequest<GetHeroResponse>
     {
-        public string Id { get; set; }
+        public string Id { get; set; } = string.Empty;
     }
 
     public class GetHeroHandler : IRequestHandler<GetHeroQuery, GetHeroResponse>
@@ -28,8 +28,8 @@ namespace VerticalSliceHeroApi.Features.Heroes.Query
 
     public class GetHeroResponse
     {
-        public string Id { get; set; }
-        public string Name { get; set; }
+        public string Id { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
         public int Level { get; set; }
     }
 }

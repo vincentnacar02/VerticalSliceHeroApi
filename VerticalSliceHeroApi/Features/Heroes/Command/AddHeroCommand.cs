@@ -7,7 +7,7 @@ namespace VerticalSliceHeroApi.Features.Heroes.Command
 {
     public class AddHeroCommand : IRequest<AddHeroResponse>
     {
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
         public int Level { get; set; }
     }
 
@@ -35,6 +35,6 @@ namespace VerticalSliceHeroApi.Features.Heroes.Command
 
     public class AddHeroResponse
     {
-        public string Id { get; set; }
+        public string? Id { get; set; }
     }
 }

@@ -7,8 +7,8 @@ namespace VerticalSliceHeroApi.Features.Heroes.Command
 {
     public class UpdateHeroCommand : IRequest
     {
-        public string Id { get; set; }
-        public string Name { get; set; }
+        public string Id { get; set; } = string.Empty;
+        public string? Name { get; set; }
         public int Level { get; set; }
     }
 
